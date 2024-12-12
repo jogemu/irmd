@@ -80,7 +80,7 @@ Full references are merely the introduction to nesting. 🟥🔷 can contain any
 
 If 🔷 starts with an url to media such as images, videos, audio and documents then it can be embedded using `![🟥]` or `![🟥](🟢:🔷)`. Specify the media type with 🟢 if the file extension at the end of the url is unreliable. Compared to HTML, controls are not hidden by default. The behavior is different for non-media. Exclaimed HTML details/dialog elements are opened and abbreviations like `![🟥](abbr:🔷)` are `🔷 (💬)` instead of just `💬`, where 💬 is `<abbr title="🔷">🟥</abbr>`. 
 
-The plural of abbreviations and i18n properties is available using `[🟥]s` to get `💬s` and `![🟥]s` to get `🔷s (💬s)`. `[^🟥]` links to the first embed of 🟥, 🔷 in the printed bibliography or 🟥 as a footnote. A single line of a file or a single page of a can be referenced using `[^🟥#L2]` or `[^🟥#page=2]`.
+The plural of abbreviations and i18n properties is available using `[🟥]s` to get `💬s` and `![🟥]s` to get `🔷s (💬s)`. `[^🟥]` links to the first embed of 🟥, 🔷 in the printed bibliography or 🔷 as a footnote. A single line of a file or a single page of a can be referenced using `[^🟥#L2]` or `[^🟥#page=2]`.
 
 ## Slimmer
 
@@ -90,7 +90,7 @@ Building on this, the following short forms are translated into the foundation.
 | -------- | --------- | ------ |
 | *Italic* | `➡️*🆑*➡️` | `[🆑](em:)`     |
 | **Bold** | `➡️**🆑**➡️` | `[🆑](strong:)` |
-| `Code`   | <code>\`🆑\`</code> | `[🆑](code:)`   |
+| `Code`   | ``➡️`🆑`➡️`` | `[🆑](code:)`   |
 | Heading  | `↩️🔁# 🆑` | `[🆑](h🔢:)`    |
 | <blockquote>Blockquote</blockquote> | `↩️> 🆑`    | `[🆑](blockquote:)` |
 | <pre>Block</pre> | <pre>↩️\`\`\`🟢<br>↩️🟥<br>↩️\`\`\`</pre>    | <pre>[<br>🟥<br>]\(🟢:)</pre> |
